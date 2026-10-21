@@ -1,0 +1,19 @@
+{
+  "name": "recruit-hub",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "seed": "node --env-file=.env.local scripts/seed.cjs"
+  },
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "jose": "5.9.3",
+    "mongoose": "8.7.0",
+    "next": "14.2.35",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}
